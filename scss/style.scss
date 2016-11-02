@@ -1,3 +1,31 @@
+$baseline-grid: 4px;
+$ui-grid: 8px;
+
 body {
-  background-color: cyan;
+  font-size: 4 * $baseline-grid;
+}
+
+// Headings
+.f1 {
+  font-size: 3rem;
+}
+
+.f2 {
+  font-size: 2.25rem;
+}
+
+.f3 {
+  font-size: 1.5rem;
+}
+
+.f4 {
+  font-size: 1.25rem;
+}
+
+.f5 {
+  font-size: 1rem;
+}
+
+.f6 {
+  font-size: .875rem;
 }
