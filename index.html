@@ -9,11 +9,12 @@
 <link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>
 <body>
-
 <div class="mw8 center pt4">
+    <!--Any time you use a float (fl,fr) you want a cf class on the parent element to clear the float -->
 	<div class="fl w-25 ph2">
 		<nav>
 			<ul class="list lh-copy">
+                <!--Only li elements can be direct children of ul. I'd wrap the a in an li here and remove the br (li is by default block level so causes line breaks as well)-->
 				<a href="index.html"><li>Getting Started</li></a>
 				<br>
 				<li class="b">Style</li>
@@ -35,7 +36,6 @@
 			</ul>
 		</nav>
 	</div>
-
 	<div class="fl w-75 ph2">
 		<h1 class="f1 mt0">MyUW Design Style guide</h1>
 		<p class="lh-copy measure">The goal of the pattern library is to be the definite design resource for anyone (designer/developer/project manager) working on a MyUW feature.</p>
